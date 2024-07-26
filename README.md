@@ -7,6 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Create new component CardForm to hold all the input fields and logic : ng genearte component CardForm
 
+# Form Group & Form Control usage and debugging
+
+# Adding validators modoule and usage
+
 
 
 
