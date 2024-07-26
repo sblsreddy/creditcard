@@ -1,6 +1,15 @@
-# Creditcard
-
+# Creating Creditcard project : ng new CreditCard
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+
+# Install bulma css and include in css file : npm install bulma
+
+# Import ReactiveFormModule in app module to use in the project
+
+# Create new component CardForm to hold all the input fields and logic : ng genearte component CardForm
+
+
+
+
 
 ## Development server
 
