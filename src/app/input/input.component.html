@@ -1,0 +1,28 @@
+<input [formControl]="control"/>
+    <ng-container *ngIf="control.dirty && control.touched && control.errors"> <!-- Hidden element-->
+    
+    <div *ngIf="control.errors?.['required']">
+        Value is required
+    </div>
+
+<!--
+    <div *ngIf="cardForm.controls['name'].errors?.['minlength']">
+        Value you entered is 
+        {{ cardForm.controls['name'].errors?.['minlength'].actualLength | json}}
+        characters long,but it must be at least
+        {{cardForm.controls['name'].errors?.['minlength'].requiredLength | json}}
+
+    </div> -->
+
+    <div *ngIf="control.hasError('minlength')">
+        Rquired length : {{control.getError('minlength').requiredLength}}
+        <br />
+        Actual length : {{control.getError('minlength').actualLength}}
+    </div>
+  
+    <div *ngIf="control.hasError('maxlength')">
+        Rquired length : {{control.getError('minlength').requiredLength}}
+        <br />
+        Actual length : {{control.getError('minlength').actualLength}}
+    </div>
+</ng-container>

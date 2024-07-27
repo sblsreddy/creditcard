@@ -11,6 +11,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Adding validators modoule and usage
 
+# Creating a new component input to make it resuable
+
 
 
 
